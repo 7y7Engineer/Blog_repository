@@ -1,0 +1,245 @@
+@import url(reset.css); /*Подключение таблицы сброса*/
+
+img{
+	border:0;
+}
+body{
+	background:url(../images/body-bg-main.jpg) top repeat-x;
+	font-family:Arial;
+}
+.karkas{
+	margin:0 auto;
+	width:970px;
+}
+.head{
+	background:url(../images/bg-gradient.png) center bottom no-repeat;
+	height:100px;
+	overflow:hidden;
+}
+.logo{
+	float:left;
+	margin:10px 0 0 380px;
+}
+.clr{
+	clear:both;
+}
+.menu{
+	list-style:none;
+	margin:8px 75px;
+	overflow:hidden;
+}
+.menu li{
+	float:left;
+	margin:0 0 0 20px;
+}
+.menu li a{
+	color:#ffffff;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:18px;
+	padding:4px 20px;
+	display:block;
+}
+.menu li a:hover{
+	color:#ffffff;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:18px;
+	background:url(../images/menu-bg.png) top repeat-x;
+	padding:4px 20px;
+	display:block;
+}
+.content-main{
+	background:url(../images/content-bg.png) center top no-repeat;
+	margin:30px 0 0 0;
+	padding:280px 0 0;
+}
+.left-bar{
+	float:left;
+	width:209px;
+	padding:0 0 0 15px;
+	margin:30px 0 0;
+}
+.vidg{
+	background:#ffeeb7;
+	width:209px;
+	padding:0 0 15px 0;
+	background:#FFEEB7 url(../images/sidebar-bg-footer.png) bottom center no-repeat;
+	margin-top:10px;
+}
+.widget{
+	list-style:none;
+	padding:0 !important;
+	margin:0 !important;
+}
+.vidg h2{
+	background:#CB2A26 url(../images/Kategorii-top.png) top center no-repeat;
+	font:bold 15px Arial;
+	color:#ffffff;
+	text-align:center;
+	padding:5px 0;
+	border-bottom:1px solid #ffffff;
+	margin:0 0 15px 0;
+}
+.vidg ul{
+	list-style:none;
+}
+.vidg li{
+	border-top:1px solid #ffffff;
+	margin:0 10px;
+	padding:7px 10px 7px 20px;
+}
+.vidg li:first-child{
+	border-top:none;
+	margin:0 10px;
+	padding:7px 10px 7px 20px;
+}
+.vidg li a{
+	font:bold 13px Arial;
+	color:#434343;
+	text-decoration:none;
+}
+.vidg li a:hover{
+	font:bold 13px Arial;
+	color:#434343;
+	text-decoration:underline;
+}
+.content{
+	padding:0 0 0 5px;
+	overflow:hidden;
+}
+.text{
+	font-size:20px;
+	padding:27px 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	min-height:600px;
+}
+.text-articles{
+	font-size:20px;
+	padding:10px 20px;
+	font-family:Arial, Helvetica, sans-serif;
+}	
+.content h1{
+	color:#DF0000;
+	font:bold 20px Arial;
+	text-transform:uppercase;
+}
+.act{
+	display:block;
+	font:bold 14px Arial;
+	color:#ffffff !important;
+	background:#b20e00;
+	text-decoration:none;
+	padding:3px 8px;
+}
+.footer{
+	background:#5f0d02 url(../images/footer-bg.png) top repeat-x;
+	margin:20px 0 0 0;
+	overflow:hidden;
+}
+.footer-in{
+	width:880px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:20px 30px;
+}
+.copy{
+	width:400px;
+	margin:auto;
+}
+.copy p{
+	font:13px Arial;
+	color:#cfcfcf;
+	margin:0;
+}
+.contentpost{
+	margin:0 0 0 15px;
+}
+.nav a {
+	text-decoration:none;
+	color:#CD2B28;
+}
+.h1404{
+	color:#FF0A47;
+    font: bold 20px Arial;
+    margin: 25px 0 15px 25px;
+    text-transform: uppercase;
+}
+.contentpost h1 a{
+	color:#333333;
+}
+.articles{
+	border:1px solid #cccccc;
+	width:95%;
+	margin-top:20px;
+}
+.articles-title{
+	background-color:#f6f6f6;
+}
+.articles-title p{
+	margin:3px 12px;
+	font-size:16px;
+	font-style:italic;
+}
+.articles-name{
+	font-size:22px;
+	color:#FF5151;
+	text-decoration:none;
+	font-weight:bold;
+	margin:10px;
+}
+.articles-name:hover{
+	font-size:22px;
+	color:#DF0000;
+	text-decoration:underline;
+	font-weight:bold;
+	margin:10px;
+}
+.text-description{
+	font-size:18px;
+	padding:10px;
+}
+.articles-title-f p{
+	margin:3px 20px;
+	font-size:16px;
+	font-style:italic;
+}
+#submit{
+	margin-top:10px;
+	color:#FF5151;
+	font-weight:bold;
+	font-size:12px;
+}
+.submit-del{
+	margin-top:10px;
+	color:#DF0000;
+	font-size:12px;
+	font-weight:bold;
+}
+.articles-name-text{
+	font-size:22px;
+	color:#0066FF;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+.articles-name-text:hover{
+	font-size:22px;
+	color:#0000FF;
+	text-decoration:underline;
+	font-weight:bold;
+	margin-top:20px;
+}
+.articles-text{
+	margin-top:15px;
+}
+.jump{
+	position:fixed;
+	width:80px;
+	height:183px;
+	bottom:20px;
+	right:0;
+}
+.footer-settings{
+	text-align:center;
+}
